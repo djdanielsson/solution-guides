@@ -9,7 +9,7 @@ permalink: /updates/
 </div>
 
 <!-- BEGIN:AUTO-UPDATES -->
-*Rolling window: 2026-10-03 to 2026-11-02. Regenerated weekly from git history.*
+*Rolling window: 2026-10-10 to 2026-11-09. Regenerated weekly from git history.*
 
 ### New guides
 
@@ -30,7 +30,7 @@ permalink: /updates/
 - [High Availability and Disaster Recovery for AAP 2.7 on OpenShift]({{ "/README-AAP-HA-DR-OpenShift" | relative_url }}): docs: link public AAP HA DR example
 - [PostgreSQL Autovacuum Tuning Guide for Ansible Automation Platform]({{ "/README-AAP-PostgreSQL-Autovacuum-Tuning" | relative_url }}): fix: size all partner logos for raw markdown rendering (#67)
 - [Event-Driven Remediation with Azure Service Bus and Ansible]({{ "/README-AIOps-Azure-Service-Bus" | relative_url }}): fix: size all partner logos for raw markdown rendering (#67)
-- [LogicMonitor + Ansible Automation Platform: AIOps Solution Guide]({{ "/README-AIOps-LogicMonitor" | relative_url }}): fix: address structural, navigation, and best-practice gaps in LogicMonitor AIOps guide
+- [LogicMonitor + Ansible Automation Platform: AIOps Solution Guide]({{ "/README-AIOps-LogicMonitor" | relative_url }}): fix: set LogicMonitor guide minimum to AAP 2.6, note 2.7 validation in progress (#90)
 - [Unlock AIOps with ServiceNow LEAP and Ansible MCP server]({{ "/README-AIOps-ServiceNow" | relative_url }}): fix: size all partner logos for raw markdown rendering (#67)
 - [AIOps with Splunk and Event-Driven Ansible]({{ "/README-AIOps-Splunk-ITSI" | relative_url }}): Remove redundant section dividers on guide pages
 - [Windows Certificate Rotation with AI Risk Analysis]({{ "/README-AIOps-Windows-Cert-Rotation" | relative_url }}): fix: size all partner logos for raw markdown rendering (#67)
@@ -52,6 +52,7 @@ permalink: /updates/
 
 ### Site and tooling
 
+- Codify multi-use-case Solution Guide pattern (#89)
 - Trim NetBox and Gluware from partner filters
 - Trim CloudNativePG, EDB, and Kafka from partner filters
 - Remove orphan catalog cards for deleted Neuromancer and ZTA guides
@@ -66,9 +67,8 @@ permalink: /updates/
 - Label Dev Spaces and Content Tools icon marks
 - Label Zero Trust emblem with readable text
 - Rewrite catalog blurbs without prose double dashes
-- Size OPA light logo as a wordmark, not an icon
 
-_…and 33 more site commits in this window._
+_…and 26 more site commits in this window._
 
 <!-- END:AUTO-UPDATES -->
 
